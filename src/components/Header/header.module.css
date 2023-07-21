@@ -1,0 +1,48 @@
+#banner{
+  height: 200px;
+}
+.navbar img{
+  height: 80px;
+  margin-bottom: 16px;
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+}
+.navbar-collapse{
+  background: #000;
+  width: 100%;
+}
+.navbar-collapse ul li a{
+  color: white;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.navbar-collapse ul li a:hover{
+  background: #808080;
+  color: white;
+}
+.navbar-collapse ul li{
+padding: 0 5px;
+}
+.navbar-collapse ul{
+  padding: 0 2rem;
+}
+.search-style{
+  width: 100%;
+  background: #222222;
+  padding: 20px;
+  text-align: center;
+}
+.search-style input{
+  border: 1px solid #ccc;
+  border: none;
+}
+.search-style input:focus{
+  border: none;
+}
+.fa-cart-shopping{
+  font-size: 25px;
+  margin-left: 1rem;
+  color: white;
+}
